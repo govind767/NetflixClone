@@ -1,0 +1,175 @@
+styles.css
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background image */
+body {
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+   
+}
+
+/* Style the header */
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the hero section */
+.hero {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the featured content section (customize as needed) */
+.featured {
+    text-align: center;
+    padding: 20px;
+}
+
+.featured h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    width: 80px;
+    height: auto;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer p {
+    margin-top: 10px;
+}
+
+
+/* Style the featured section */
+.featured {
+    text-align: center;
+    padding: 20px;
+    background-color: #000; /* Set the background 
+  color to black */
+  color:white
+}
+
+.featured h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  
+}
+
+/* Style each featured row */
+.featured-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom: 5px solid #888; /* Add a gray border at the bottom of each row */
+    padding-bottom: 20px; /* Add some padding to separate rows visually */
+}
+
+.featured-image img {
+    max-width: 70%;
+    height: 400px;
+    width:1000px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+.featured-text {
+    flex: 1;
+    text-align: left;
+}
+
+.featured-text h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.featured-text p {
+    font-size: 1em;
+}

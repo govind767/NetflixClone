@@ -1,0 +1,91 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav>
+            <div class="logo">
+    <img src="https://i.postimg.cc/6qKkxDx0/netflix-removebg-preview.png" alt="Netflix Logo" style="width: 200px; height: 100px;">
+</div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">TV Shows</a></li>
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Latest</a></li>
+                    <li><a href="#">My List</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>Welcome to Netflix</h1>
+            <p>Watch unlimited TV shows and movies.</p>
+            <button class="cta-button">Sign Up</button>
+        </div>
+    </header>
+
+    <!-- Featured Content -->
+    <!-- Featured Content -->
+<section class="featured">
+    <h2>Featured Content</h2>
+    <div class="featured-row">
+        <div class="featured-image">
+            <img src="https://m.media-amazon.com/images/M/MV5BZjNiMzQzYmQtNWZkOS00ZmRkLWEzYTgtODI2MDQ1MGY3NGI1XkEyXkFqcGdeQXVyNTQyODc1OTY@._V1_.jpg" alt="Featured Image 1">
+        </div>
+        <div class="featured-text">
+            <h3>Save what you like</h3>
+            <p>You can wishlist your content and get suggestinss from us accordingly.</p>
+        </div>
+    </div>
+    <div class="featured-row">
+        <div class="featured-image">
+            <img src="https://boxofficecollection.in/wp-content/uploads/2015/04/dharam-sankat-mein-and-ek-paheli-leela.jpg">
+        </div>
+        <div class="featured-text">
+            <h3>Latest Updates</h3>
+            <p>Get updateed with the latest Update.</p>
+        </div>
+    </div>
+    <div class="featured-row">
+        <div class="featured-image">
+            <img src="https://i.ytimg.com/vi/fFFhD_L6m3A/maxresdefault.jpg">
+        </div>
+        <div class="featured-text">
+            <h3>Download and Play</h3>
+            <p>Now use this option to download nad play when yo are offline too.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo">
+    <img src="https://i.postimg.cc/6qKkxDx0/netflix-removebg-preview.png" alt="Netflix Logo" style="width: 200px; height: 100px;">
+</div>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2023 Netflix Clone</p>
+    </footer>
+</body>
+</html>
